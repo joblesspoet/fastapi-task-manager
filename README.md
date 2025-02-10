@@ -56,10 +56,7 @@ Request Body:
 ```sh
 [
   {
-    "id": 1,
     "description": "Complete project documentation",
-    "priority": "high",
-    "category": "work"
   }
 ]
 ```
