@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "start": "concurrently \". .venv/bin/activate && cd backend && uvicorn main:app --reload\" \"cd frontend && npm run dev\""
+    },
+    "devDependencies": {
+      "concurrently": "^8.0.0"
+    }
+  }
+  
